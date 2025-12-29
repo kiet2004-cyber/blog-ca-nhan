@@ -1,4 +1,4 @@
-baseURL = " https://github.com/kiet2004-cyber/blog-hugo-2025.git"
+baseURL = "https://kiet2004-cyber.github.io/"
 languageCode = "vi"
 title = "Blog Học Tập Cá Nhân"
 theme = "PaperMod"
