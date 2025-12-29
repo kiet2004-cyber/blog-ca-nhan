@@ -1,0 +1,44 @@
+baseURL = " https://github.com/kiet2004-cyber/blog-hugo-2025.git"
+languageCode = "vi"
+title = "Blog Học Tập Cá Nhân"
+theme = "PaperMod"
+
+
+[pagination]
+pagerSize = 10
+
+[params]
+  author = "Đỗ Gia Kiệt"
+  description = "Sinh viên CNTT – Blog học tập và chia sẻ kiến thức"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.profileMode]
+  enabled = true
+  title = "Đỗ Gia Kiệt"
+  subtitle = "Sinh viên CNTT | Hugo | GitHub"
+  imageUrl = "avatar.jpg"
+  imageWidth = 180
+  imageHeight = 180
+
+[menu]
+  [[menu.main]]
+    name = "Trang chủ"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Giới thiệu"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Bài viết"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "Liên hệ"
+    url = "/contact/"
+    weight = 4
