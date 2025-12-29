@@ -1,11 +1,11 @@
-baseURL = "https://kietchivas.github.io/"
+baseURL = "https://kiet2004-cyber.github.io/"
 languageCode = "vi"
 title = "Blog Học Tập Cá Nhân"
 theme = "PaperMod"
 
 
 [pagination]
-pagerSize = 10
+pagerSize = 5
 
 [params]
   author = "Đỗ Gia Kiệt"
@@ -16,7 +16,7 @@ pagerSize = 10
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-
+  customCSS = ["css/custom.css"]
 [params.profileMode]
   enabled = true
   title = "Đỗ Gia Kiệt"
